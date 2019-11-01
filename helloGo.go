@@ -1,5 +1,7 @@
 package main
-import "fmt"
+import ("fmt"
+	"github.com/markolsen42/stringUtil"
+)
 func main(){
-	fmt.Println("Hello Go")
+	fmt.Println(stringUtil.Reverse("Hello Go"))
 }
